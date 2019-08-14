@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "speech interpretation app",
+  "main": "liri.js",
+  "scripts": {
+    "test": "node liri.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericktorres1/liri-node-app.git"
+  },
+  "author": "Erick Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericktorres1/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/ericktorres1/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1",
+    "simple-node-logger": "^18.12.23"
+  }
+}
